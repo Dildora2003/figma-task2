@@ -464,7 +464,7 @@ footer {
     max-width: 43rem;
   }
 
-  .hero-img > img {
+  .hero-img .hero-tablet1 {
     display: none;
   }
 
@@ -515,6 +515,10 @@ footer {
 
 @media screen and (max-width: 950px) {
   .navbar > ul {
+    display: none;
+  }
+
+  .hero-img .hero-tablet {
     display: none;
   }
 }
@@ -615,6 +619,14 @@ footer {
 
   #testimonial .testimonial-card:nth-child(2) {
     display: none;
+  }
+
+  #testimonial {
+    padding: 3rem 0 8rem 0;
+  }
+
+  #headline {
+    padding: 13.2rem 0;
   }
 
   .headline h2 {
