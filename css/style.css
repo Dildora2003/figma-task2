@@ -121,6 +121,7 @@ html {
   padding: 1.3rem 5.2rem;
   max-width: 13.5rem;
 }
+
 .hero-button p {
   max-width: 28rem;
   font-size: 1.6rem;
@@ -142,31 +143,37 @@ html {
   background: #f3f3f3;
   padding: 6.4rem 0;
 }
+
 .section1-box {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 3rem;
 }
+
 .box {
   display: flex;
   align-items: center;
   gap: 1.6rem;
 }
+
 .box .box-elleps {
   width: 1.9rem;
   height: 1.9rem;
   border-radius: 50%;
   background-color: #ffcf23;
 }
+
 .box > p {
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 28px;
 }
+
 .feature-box {
   max-width: 36rem;
 }
+
 .feature-box .box + p {
   font-size: 1.6rem;
   font-weight: 400;
@@ -207,6 +214,7 @@ html {
   align-items: start;
   gap: 1.6rem;
 }
+
 .Program-text-left h3 {
   color: #fff;
   font-size: 2.4rem;
@@ -214,6 +222,7 @@ html {
   line-height: 32px;
   letter-spacing: -0.1px;
 }
+
 .Program-text-left p {
   color: #fff;
   font-size: 1.6rem;
@@ -223,6 +232,7 @@ html {
   margin-top: 1.4rem;
   max-width: 50rem;
 }
+
 .Program-text-right ul {
   display: flex;
   flex-direction: column;
@@ -230,6 +240,7 @@ html {
   list-style: disc;
   justify-content: center;
 }
+
 .Program-text-right > ul > li {
   cursor: pointer;
   margin-left: 1.5rem;
