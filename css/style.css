@@ -610,12 +610,42 @@ footer {
     font-size: 3.4rem;
   }
 
+  .footer {
+    text-align: center;
+    align-items: center;
+  }
+
   .footer-right {
+    flex-direction: column;
+    align-items: center;
     gap: 8rem;
   }
 
   .footer-links {
     gap: 6rem;
+  }
+
+  .footer-subsribe {
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-input {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-input input {
+    display: flex;
+    align-self: center;
+    position: relative;
+    max-width: 33rem;
+    width: 100%;
+  }
+
+  .footer-input input + i {
+    position: absolute;
+    right: 6rem;
   }
 }
 
@@ -646,10 +676,6 @@ footer {
 
   .footer {
     align-items: center;
-  }
-
-  .footer-right {
-    flex-direction: column;
   }
 
   .footer-subsribe {
